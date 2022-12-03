@@ -4,6 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "author": "Luca Morelli <luca.morelli.lm@gmail.com",
+  "scripts": {
+    "start": "webpack serve --port 3000",
+    "build": "NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tscheck": "tsc"
+  },
   "devDependencies": {
     "@types/webpack-env": "1.18.0",
     "@babel/cli": "7.19.3",
