@@ -1,11 +1,13 @@
 import React from "react";
 import "./global.scss";
+import { Button } from 'reactstrap';
+import { BaseLayout } from "./components/BaseLayout";
 
-const App = () =>{
+const App = () => {
     return (
-        <h1>
-            Welcome to React App thats build without CRA
-        </h1>
+        <BaseLayout title="Welcome to React App thats build without CRA">
+            <Button color="danger">Danger!</Button>;  
+        </BaseLayout>
     )
 }
 
