@@ -8,6 +8,7 @@
     "**/*.tsx",
     "**/*.ts",
     ".eslintrc.js",
+    "postcss.config.js",
     "webpack.config.js"
   ]
 }
